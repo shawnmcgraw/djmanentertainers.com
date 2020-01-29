@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo&display=swap');
+
+body, html {
+    font-family: 'Heebo', sans-serif;
+    margin: 0;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("black-disc-jockey-music-pad-159206.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .flex-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .hero-text {
+    text-align: center;
+    color: white;
+  }
+
+  .hero-text > h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0;
+  }
